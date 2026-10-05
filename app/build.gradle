@@ -5,7 +5,7 @@ android {
     namespace 'com.homecinema.webhook'
     compileSdk 34
     defaultConfig {
-        applicationId "com.homecinema.webhook.game"
+        applicationId "com.homecinema.webhook.pc"
         minSdk 21
         targetSdk 34
         versionCode 1
