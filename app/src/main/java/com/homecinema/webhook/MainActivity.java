@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         new Thread(() -> {
             try {
-                HttpURLConnection conn = (HttpURLConnection) new URL("http://192.168.0.15:8123/api/webhook/sony_input_game").openConnection();
+                HttpURLConnection conn = (HttpURLConnection) new URL("http://192.168.0.15:8123/api/webhook/sony_input_pc").openConnection();
                 conn.setRequestMethod("POST");
                 conn.getResponseCode();
             } catch (Exception e) {}
